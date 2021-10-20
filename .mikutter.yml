@@ -5,6 +5,7 @@ depends:
   plugin:
     - message_detail_view
     - skin
+    - gtk3
     - twitter
 version: '1.0'
 author: toshi_a
