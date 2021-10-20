@@ -19,7 +19,7 @@ Plugin.create :message_retweet do
         if retweet.retweet_source(true) == message
           user_list.add_user([retweet.user]) end end end
 
-    user_list.ssc_atonce :expose_event do
+    user_list.ssc_atonce :draw do
       twitter = Enumerator.new { |y|
         Plugin.filtering(:worlds, y)
       }.select { |world|
