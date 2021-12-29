@@ -1,13 +1,13 @@
 ---
 slug: :message_retweet
 depends:
-  mikutter: 3.3.5
+  mikutter: '5.0'
   plugin:
     - message_detail_view
     - skin
     - gtk3
     - twitter
-version: '1.0'
+version: '2.0'
 author: toshi_a
 name: ReTweet
 description: "リツイートの表示に関するプラグイン"
